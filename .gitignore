@@ -1,0 +1,77 @@
+# CMake / build output
+/build/
+/out/
+/cmake-build-*/
+CMakeFiles/
+Testing/
+CMakeUserPresets.json
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+compile_commands.json
+build.ninja
+.ninja_deps
+.ninja_log
+Makefile
+install_manifest.txt
+Debug/
+Release/
+x64/
+x86/
+
+# Compiled artifacts
+*.exe
+*.dll
+*.obj
+*.o
+*.a
+*.lib
+*.pdb
+*.ilk
+*.so
+*.dylib
+*.class
+*.gcda
+*.gcno
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.env
+.secrets/
+*.secret
+*.pem
+*.key
+*.p12
+
+# Captures can contain private network data. Generate synthetic PCAPs locally.
+*.pcap
+*.pcapng
+*.cap
+*.dump
+
+# Logs, temporary files, and generated reports
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+netsentry-report.*
+sample-report.*
+*-integration-report.*
+*-report.*
+*_report.*
+
+# IDE and OS files
+.vs/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+__pycache__/
+*.py[cod]
+.venv/
+venv/
